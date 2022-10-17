@@ -1,0 +1,23 @@
+.details-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizza-view-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+.pizza-view-details ul {
+    list-style: none;
+}
+
+#add-button{
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color:rgb(220,53,69);
+}

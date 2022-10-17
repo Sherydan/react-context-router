@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+}
+
+.card ul {
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.card ul li {
+    text-transform: capitalize;
+}
+
+.card-image img {
+    max-width: 100%;
+}
+
+.card-content {
+    padding: 0.5rem;
+    flex: 1 1 auto;
+}
+
+#card-pizza-name{
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+#view-more {
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem;
+    background-color: rgb(96, 218, 245);
+}
+
+#add-to-cart {
+    cursor: pointer;
+    color: #fff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(220, 53, 69);
+}
